@@ -1,0 +1,41 @@
+.table {
+  width: 100vw;
+  margin: 10px 14%;
+  text-align: center;
+  overflow-x:visible;
+}
+.table > table {
+  border-collapse: collapse;
+  width: 70vw;
+  max-width: 80vw;
+  background:lightblue ;
+
+}
+.table table,
+th,
+td {
+  border: 1px solid darkred;
+  padding: 5px;
+  word-wrap: break-word;
+}
+
+.table th {
+  background-color: blue;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+}
+.table__body {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.table__body:hover {
+  background-color: rgb(230, 230, 230);
+  cursor: pointer;
+}
+
+@media screen and (max-width:767px) {
+  .table{
+  margin:20px;
+font-size: smaller;
+  }
+
+}

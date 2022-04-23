@@ -1,0 +1,42 @@
+.inputform {
+  margin: 50px 200px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.inputform > input {
+  flex: 0.6;
+  padding: 7px;
+  border-radius: 20px;
+  outline: none;
+  border: 1px solid blue;
+  background: rgba(216, 216, 216, 0.418);
+}
+.inputform > input:focus {
+  background: white;
+  border: 1px solid red;
+}
+.input__btn {
+  border-radius: 20px;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+  background: blue;
+  color: white;
+}
+.input__btn:hover {
+  background-color: red;
+}
+
+@media screen and (max-width: 767px) {
+  .inputform {
+    margin: 30% 100px;
+  }
+  .inputform > input {
+    flex: 0.6;
+    padding: 5px;
+  }
+  .input__btn {
+    padding: 5px 10px;
+    font-size: smaller;
+  }
+}

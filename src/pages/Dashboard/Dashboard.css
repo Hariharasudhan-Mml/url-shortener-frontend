@@ -1,0 +1,9 @@
+.dashboard{
+    width: 60%;
+  margin: auto;
+  margin-top: 50px;
+    background-color: cornsilk;
+}
+.dashboard > h2{
+text-align: center;
+}
